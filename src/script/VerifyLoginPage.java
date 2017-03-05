@@ -3,6 +3,7 @@ package script;
 import org.testng.annotations.Test;
 
 import generic.BaseTest;
+import generic.Excel;
 import pom.LoginPage;
 
 public class VerifyLoginPage extends BaseTest {
@@ -13,7 +14,8 @@ public class VerifyLoginPage extends BaseTest {
 		LoginPage l = new LoginPage(driver);
 //		String v =driver.getTitle();
 //		System.out.println(v);
-		l.verifyTitle("actiTIME - Login");
+		String eTitle = Excel.getCellValue(INPUT_PATH, "VerifyLoginPage", 1, 0);
+		l.verifyTitle(eTitle);
 	
 	}
 
