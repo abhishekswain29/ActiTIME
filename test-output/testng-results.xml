@@ -5,27 +5,27 @@
       <![CDATA[Title is matching]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47441" started-at="2017-03-05T10:19:59Z" finished-at="2017-03-05T10:20:46Z">
+  <suite name="Default suite" duration-ms="13479" started-at="2017-03-05T12:14:01Z" finished-at="2017-03-05T12:14:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47441" started-at="2017-03-05T10:19:59Z" finished-at="2017-03-05T10:20:46Z">
-      <class name="script.VerifyLoginPage">
-        <test-method status="PASS" signature="precondition()[pri:0, instance:script.VerifyLoginPage@675d3402]" name="precondition" is-config="true" duration-ms="41411" started-at="2017-03-05T15:49:59Z" finished-at="2017-03-05T15:50:40Z">
+    <test name="Default test" duration-ms="13479" started-at="2017-03-05T12:14:01Z" finished-at="2017-03-05T12:14:14Z">
+      <class name="script.VerifyLoginLogout">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:script.VerifyLoginLogout@675d3402]" name="precondition" is-config="true" duration-ms="5512" started-at="2017-03-05T17:44:01Z" finished-at="2017-03-05T17:44:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="PASS" signature="testVerifyLoginPage()[pri:0, instance:script.VerifyLoginPage@675d3402]" name="testVerifyLoginPage" duration-ms="3092" started-at="2017-03-05T15:50:40Z" finished-at="2017-03-05T15:50:43Z">
+        <test-method status="PASS" signature="testVerifyLoginLogout()[pri:0, instance:script.VerifyLoginLogout@675d3402]" name="testVerifyLoginLogout" duration-ms="6477" started-at="2017-03-05T17:44:06Z" finished-at="2017-03-05T17:44:13Z">
           <reporter-output>
             <line>
               <![CDATA[Title is matching]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testVerifyLoginPage -->
-        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyLoginPage@675d3402]" name="postcondition" is-config="true" duration-ms="2897" started-at="2017-03-05T15:50:43Z" finished-at="2017-03-05T15:50:46Z">
+        </test-method> <!-- testVerifyLoginLogout -->
+        <test-method status="PASS" signature="postcondition()[pri:0, instance:script.VerifyLoginLogout@675d3402]" name="postcondition" is-config="true" duration-ms="1469" started-at="2017-03-05T17:44:13Z" finished-at="2017-03-05T17:44:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postcondition -->
-      </class> <!-- script.VerifyLoginPage -->
+      </class> <!-- script.VerifyLoginLogout -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
