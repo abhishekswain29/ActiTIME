@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [actiTIME]" parallel="tests">
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="script.VerifyInvalidLogin">
+      <class name="script.VerifyLoginLogout">
         <methods>
-          <include name="testVerifyInvalidLogin"/>
           <include name="precondition"/>
+          <include name="precondition"/>
+          <include name="testVerifyLoginLogout"/>
+          <include name="postcondition"/>
           <include name="postcondition"/>
         </methods>
-      </class> <!-- script.VerifyInvalidLogin -->
+      </class> <!-- script.VerifyLoginLogout -->
+      <class name="script.VerifyVersion">
+        <methods>
+          <include name="precondition"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- script.VerifyVersion -->
+      <class name="script.VerifyLoginPage">
+        <methods>
+          <include name="precondition"/>
+          <include name="precondition"/>
+          <include name="postcondition"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- script.VerifyLoginPage -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [actiTIME] -->
